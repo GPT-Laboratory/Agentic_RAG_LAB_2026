@@ -1,0 +1,12 @@
+groq
+langchain
+langchain-core
+langchain-community
+langchain-qdrant
+langchain-text-splitters
+langgraph
+qdrant-client
+sentence-transformers
+python-dotenv
+datasets
+ddgs

@@ -1,0 +1,65 @@
+# ==============================================================================
+# DIRECT QUESTIONS (No Retrieval)
+# Simple definitional questions that can be answered from general knowledge
+# ==============================================================================
+What is the purpose of a vector database in RAG?
+What is the purpose of document chunking in RAG?
+
+
+# ==============================================================================
+# TOOL QUESTIONS (Single-Hop RAG)
+# Questions requiring Hugging Face documentation retrieval
+# ==============================================================================
+How do I load a dataset from the Hugging Face Hub using the datasets library?
+What are the main steps in the Hugging Face 'advanced RAG' cookbook?
+
+
+# ==============================================================================
+# MULTIHOP QUESTIONS (Decomposition Required)
+# Complex questions that require breaking into sequential sub-questions
+# ==============================================================================
+What is the difference between RAG and fine-tuning?
+First explain how to build a basic RAG with Hugging Face, then explain how to extend it with reranking
+What is corrective RAG (CRAG), and why is it useful compared to naive RAG?
+Compare different vector database options for RAG: Qdrant, Pinecone, FAISS, and Chroma
+
+
+# ==============================================================================
+# HALLUCINATION TEST QUESTIONS
+# Questions designed to test the system's ability to detect when it doesn't know
+# ==============================================================================
+What does the HF documentation say about cryptocurrency trading?
+According to Hugging Face docs, who won the 2024 Olympics?
+
+
+# ==============================================================================
+# REFLECTION AND META QUESTIONS
+# Questions about the system's own reasoning and behavior
+# ==============================================================================
+Explain whether your previous answer was grounded in the retrieved context
+Was your last answer based on the documentation or general knowledge?
+How confident are you in your previous answer, and why?
+Did you use web search for your previous response?
+What sources did you use to answer the previous question?
+
+
+# ==============================================================================
+# ADVANCED TECHNICAL QUESTIONS
+# For demonstrating deep knowledge retrieval capabilities
+# ==============================================================================
+What are the key differences between dense and sparse retrieval in RAG systems?
+How does hybrid search combine semantic and keyword search in RAG?
+How does query expansion improve retrieval performance in RAG?
+What are the best practices for handling out-of-domain questions in RAG?
+
+
+# ==============================================================================
+# DEMONSTRATION QUESTIONS FOR STUDENTS
+# Questions that showcase specific features and capabilities
+# ==============================================================================
+Show me how the router decides between DIRECT, TOOL, REWRITE, and MULTIHOP strategies.
+What happens when the retrieved documents don't contain relevant information?
+How does the system handle questions that require information from multiple documents?
+Demonstrate how the grading system filters irrelevant documents.
+Show me an example of the reflection mechanism improving an answer.
+How does the web fallback work when documentation is insufficient?
